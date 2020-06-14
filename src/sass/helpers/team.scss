@@ -1,0 +1,103 @@
+.team-description {
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  
+  .team-cards{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .team-card__fon {
+    background-color: #90e2d3;
+    width: 380px;
+    /* height: 470px; */
+    position: relative;
+  }
+  
+  .overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 470px;
+    background-image: -webkit-gradient(
+      linear,
+      left bottom, left top,
+      from(rgba(251, 227, 137, 0.75)),
+      to(rgba(243, 138, 129, 0.95))
+    );
+    background-image: -o-linear-gradient(
+      bottom,
+      rgba(251, 227, 137, 0.75),
+      rgba(243, 138, 129, 0.95)
+    );
+    background-image: linear-gradient(
+      0deg,
+      rgba(251, 227, 137, 0.75),
+      rgba(243, 138, 129, 0.95)
+    );
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .team-cards__social-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .social_button-icon {
+    width: 30px;
+    height: 30px;
+    fill: #f66868;
+    background-color: #f3d772;
+    padding: 15px;
+    margin-left: 1px;
+  }
+  
+  .social_button-icon:hover{
+    fill: #fff;
+    background-color: #f66868;
+  }
+  
+  .team-card__fon:hover .overlay  {
+    opacity: 1;
+    top: -10px;
+    left: -10px;
+  }
+  
+  .team-card__name {
+    font-size: 15px;
+    background-color: #fff;
+    padding-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  
+  .team-card__profesion {
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+  }

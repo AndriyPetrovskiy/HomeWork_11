@@ -1,0 +1,68 @@
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #fff;
+    font-size: 0;
+  }
+  
+  .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .header-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .header-nav__item {
+    margin-right: 55px;
+  }
+  
+  .header-nav__link {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  .nav-site__icon {
+    fill: #fff;
+    width: 20px;
+    height: 15px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+  }
+  
+  .nav-site__icon:hover {
+    fill: #f3d772;
+  }
+  
+  .header-nav__icon {
+    margin-right: 40px;
+  }
+  
+  .header-nav__icon:last-child {
+    margin-right: 0;
+  }
+  
+  .header-nav__link:hover {
+    color: #f3d772;
+    font-weight: bold;
+    border-bottom: 3px solid #f3d772;
+    padding-bottom: 5px;
+  }
